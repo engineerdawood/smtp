@@ -164,7 +164,7 @@ return [
 	    Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class,
 	    Barryvdh\Debugbar\ServiceProvider::class,
 
-	    Bilaliqbalr\IrbLicenseManager\IrbLicenseManagerServiceProvider::class,
+	    //Bilaliqbalr\IrbLicenseManager\IrbLicenseManagerServiceProvider::class,
 
 	    TorMorten\Eventy\EventServiceProvider::class,
 	    TorMorten\Eventy\EventBladeServiceProvider::class,
@@ -222,7 +222,7 @@ return [
         'Bugsnag' => Bugsnag\BugsnagLaravel\Facades\Bugsnag::class,
         'CustomForm' => App\Facades\CustomForm::class,
         'CustomHelper' => App\Facades\CustomHelper::class,
-        'IrbLicenseManager' => Bilaliqbalr\IrbLicenseManager\Facade\IrbLicenseManager::class,
+        //'IrbLicenseManager' => Bilaliqbalr\IrbLicenseManager\Facade\IrbLicenseManager::class,
 
 //        'LicenseManager' => \Bilaliqbalr\IrbLicenseManager\Facade\IrbLicenseManager::class,
         'Eventy' => TorMorten\Eventy\Facades\Events::class,

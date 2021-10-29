@@ -1,0 +1,1 @@
+<p>Copyright &copy; <?php echo e(date('Y')); ?> of <?php echo e(config('app.name')); ?>. All rights reserved.</p>
